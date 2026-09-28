@@ -274,7 +274,7 @@ Updates the question and answer of an existing annotation.
 ### [POST] /audio-to-text
 **Convert Audio to Text**
 
-Convert audio file to text. Supported MIME types: `audio/mp3`, `audio/mpga`, `audio/m4a`, `audio/x-m4a`, `audio/wav`, and `audio/amr`. File size limit is `30 MB`.
+Convert audio file to text. Supported formats: `mp3`, `mp4`, `mpeg`, `mpga`, `m4a`, `wav`, `webm`, `amr` (supported MIME types: `audio/mp3`, `audio/mp4`, `audio/mpeg`, `audio/mpga`, `audio/m4a`, `audio/x-m4a`, `audio/wav`, `audio/webm`, and `audio/amr`). File size limit is `30 MB`.
 
 #### Request Body
 
