@@ -11,7 +11,7 @@ from enum import StrEnum
 from http import HTTPStatus
 from typing import Any, Literal , Annotated
 from flask_restx import Resource
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field 
 
 from controllers.common.rbac import RBACCheck, Workspace
 from controllers.common.schema import query_params_from_model, register_response_schema_models, register_schema_models
